@@ -49,7 +49,7 @@ void initBluefruit(){
   // 送信出力電力を設定
   Bluefruit.setTxPower(4);
   // device名の設定
-  Bluefruit.setName(getMcuUniqueID());
+  Bluefruit.setName("tedeyannen,tede");
   Bluefruit.Periph.setConnectCallback(connect_callback);
   Bluefruit.Periph.setDisconnectCallback(disconnect_callback);
 
